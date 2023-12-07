@@ -59,17 +59,21 @@ margin: 0%;
 }
 
 
-/*@media screen and (max-width: 400px) {
+@media (max-width: 500px) {
      
-    body {min-width: 400px;;background-color: #ed6452;}
-    #contenedor {display: inline-flex;}
-   #calculadora, #info {background-color: #ed6452;
-    width: 360px;
-    height: 700px;
-}
+   input {
+    width: 80%;
+    height: 60px;}
 
+    button {width: 50%;
+    height: 60px;
+    font-size: larger;}
+
+   #calculadora {height: 400px;}
+
+   ::placeholder {font-size: large;}
     
-}*/
+}
 
 button:hover {
     background-color:#2c2880 ;
