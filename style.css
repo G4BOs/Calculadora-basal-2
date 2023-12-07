@@ -1,0 +1,68 @@
+body {background-color:#ffe8cd;
+text-align: center;
+color: white;}
+
+
+h1 {font-family: Arial, Helvetica, sans-serif;
+font-size: 40px; 
+color: white;
+display: block;
+}
+
+@media screen and (max-width: 600px) {
+     h1 {font-size: 20px}
+     .calculadora, .info {padding-left: 80px;padding-right: 80px;}
+     
+
+    
+}
+
+input {width: auto;
+    background-color: #2c2842;
+height: 30px;
+color: white;
+text-align: center;
+border-radius: 10px;
+border: none;}
+
+::placeholder {color: white;
+text-align: center;}
+
+button {width: 50pxpx;
+height: 40px;
+text-align: center;
+border-radius: 10px;
+background-color: #2c2842;
+color: white;
+border:none;
+
+}
+
+
+.calculadora {
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+    background-color: #ed6452;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 3px 3px 5px #2c2842;
+}
+
+.info {display: inline-block;
+background-color: #c94738;
+height: 50%;
+width: 50%;
+border-radius: 0px 0px 10px 10px;
+box-shadow: 3px 3px 5px #2c2842;}
+
+ul {display:inline-block;
+text-align: left;}
+
+button:hover {
+    background-color:#2c2880 ;
+    cursor: pointer;
+}
+button:active {
+background-color: #2c2890;
+transition: ease-in-out 0.5 all;
+}
